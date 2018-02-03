@@ -278,7 +278,7 @@ function oCB:OnInitialize()
 	
 	self:RegisterChatCommand({ "/oCBcl", "/ocbcl"}, self.consoleOptions)
 	self:RegisterChatCommand({ "/oCB", "/ocb"}, function() waterfall:Open('oCB') end)
-	waterfall:Register('oCB2', 'aceOptions', self.consoleOptions, 'title','oCB 2.0. Revision: 17104','colorR', 0.8, 'colorG', 0.8, 'colorB', 0.5) 
+	waterfall:Register('oCB', 'aceOptions', self.consoleOptions, 'title','oCB 2.0. Revision: 17104','colorR', 0.8, 'colorG', 0.8, 'colorB', 0.5) 
 
 	self.frames = {}
 	self:SetDebugging(false)
